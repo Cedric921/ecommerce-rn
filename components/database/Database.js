@@ -1,0 +1,48 @@
+export const COLORS = {
+  white: '#ffffff',
+  black: '#000000',
+  green: '#00AC76',
+  red: '#C04345',
+  blue: '#0043F9',
+  backgroundLight: '#F0F0F3',
+  backgroundDark: '#777777',
+};
+
+export const Items = [
+  {
+    id: 1,
+    category: 'product',
+    productName: '',
+    productPrice: 12,
+    description: '',
+    isOff: true,
+    offPercentage: 12,
+    productImage: '',
+    isAvailable: true,
+    productImageList: [],
+  },
+  {
+    id: 2,
+    category: 'product',
+    productName: '',
+    productPrice: 12,
+    description: '',
+    isOff: true,
+    offPercentage: 12,
+    productImage: '',
+    isAvailable: true,
+    productImageList: [],
+  },
+  {
+    id: 3,
+    category: 'product',
+    productName: '',
+    productPrice: 12,
+    description: '',
+    isOff: true,
+    offPercentage: 12,
+    productImage: '',
+    isAvailable: true,
+    productImageList: [],
+  },
+];

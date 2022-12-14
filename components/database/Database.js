@@ -18,9 +18,13 @@ export const Items = [
     description: '',
     isOff: true,
     offPercentage: 15,
-    productImage: '',
+    productImage: require('../database/images/prod.jpg'),
     isAvailable: true,
-    productImageList: [],
+    productImageList: [
+      require('../database/images/figma-task.jpg'),
+      require('../database/images/gloire.jpg'),
+      require('../database/images/prod1.jpg'),
+    ],
   },
   {
     id: 2,

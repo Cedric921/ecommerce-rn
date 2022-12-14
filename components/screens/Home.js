@@ -38,7 +38,6 @@ const Home = ({navigation}) => {
 
     setProducts(productList);
     setAccessory(accessoryList);
-    console.log({products, accessory});
   };
 
   const ProductsCard = ({data}) => {
@@ -172,19 +171,23 @@ const Home = ({navigation}) => {
           }}>
           <TouchableOpacity>
             <Entypo
-              name="shopping-bag"
+              name="shopping-basket"
               style={{
                 fontSize: 18,
-                color: COLORS.backgroundMedium,
+                color: COLORS.black,
                 padding: 12,
                 borderRadius: 10,
                 backgroundColor: COLORS.backgroundLight,
               }}
             />
           </TouchableOpacity>
-          <TouchableOpacity>
+          <TouchableOpacity
+            style={{
+              color: COLORS.backgroundMedium,
+              borderColor: COLORS.black,
+            }}>
             <MaterialCommunityIcons
-              name="cart"
+              name="shopping"
               style={{
                 fontSize: 18,
                 color: COLORS.backgroundMedium,

@@ -15,7 +15,8 @@ export const Items = [
     category: 'product',
     productName: 'Cardashan',
     productPrice: 12,
-    description: '',
+    description:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iusto corporis nesciunt illum, accusantium quae delectus veritatis non voluptates animi placeat laboriosam cum quos exercitationem doloremque aut similique laudantium voluptas.',
     isOff: true,
     offPercentage: 15,
     productImage: require('../database/images/prod.jpg'),
@@ -31,7 +32,8 @@ export const Items = [
     category: 'product',
     productName: 'cartable',
     productPrice: 12,
-    description: '',
+    description:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iusto corporis nesciunt illum, accusantium quae delectus veritatis non voluptates animi placeat laboriosam cum quos exercitationem doloremque aut similique laudantium voluptas.',
     isOff: false,
     offPercentage: 12,
     productImage: '',
@@ -43,7 +45,8 @@ export const Items = [
     category: 'accessory',
     productName: 'Bluetooth',
     productPrice: 12,
-    description: '',
+    description:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iusto corporis nesciunt illum, accusantium quae delectus veritatis non voluptates animi placeat laboriosam cum quos exercitationem doloremque aut similique laudantium voluptas.',
     isOff: true,
     offPercentage: 12,
     productImage: '',
@@ -55,7 +58,8 @@ export const Items = [
     category: 'accessory',
     productName: 'JBl',
     productPrice: 12,
-    description: '',
+    description:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iusto corporis nesciunt illum, accusantium quae delectus veritatis non voluptates animi placeat laboriosam cum quos exercitationem doloremque aut similique laudantium voluptas.',
     isOff: false,
     offPercentage: 12,
     productImage: '',
@@ -67,7 +71,8 @@ export const Items = [
     category: 'accessory',
     productName: 'Bluetooth',
     productPrice: 12,
-    description: '',
+    description:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iusto corporis nesciunt illum, accusantium quae delectus veritatis non voluptates animi placeat laboriosam cum quos exercitationem doloremque aut similique laudantium voluptas.',
     isOff: true,
     offPercentage: 12,
     productImage: '',
@@ -79,7 +84,8 @@ export const Items = [
     category: 'accessory',
     productName: 'printer',
     productPrice: 435,
-    description: '',
+    description:
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iusto corporis nesciunt illum, accusantium quae delectus veritatis non voluptates animi placeat laboriosam cum quos exercitationem doloremque aut similique laudantium voluptas.',
     isOff: true,
     offPercentage: 12,
     productImage: '',

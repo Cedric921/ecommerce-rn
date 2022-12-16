@@ -182,6 +182,7 @@ const Home = ({navigation}) => {
             />
           </TouchableOpacity>
           <TouchableOpacity
+            onPress={() => navigation.navigate('MyCart')}
             style={{
               color: COLORS.backgroundMedium,
               borderColor: COLORS.black,

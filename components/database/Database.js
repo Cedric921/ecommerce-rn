@@ -14,11 +14,11 @@ export const Items = [
     id: 1,
     category: 'product',
     productName: 'Cardashan',
-    productPrice: 12,
+    productPrice: 46,
     description:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iusto corporis nesciunt illum, accusantium quae delectus veritatis non voluptates animi placeat laboriosam cum quos exercitationem doloremque aut similique laudantium voluptas.',
     isOff: true,
-    offPercentage: 15,
+    offPercentage: 40,
     productImage: require('../database/images/prod.jpg'),
     isAvailable: true,
     productImageList: [
@@ -70,11 +70,11 @@ export const Items = [
     id: 5,
     category: 'accessory',
     productName: 'Bluetooth',
-    productPrice: 12,
+    productPrice: 123,
     description:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus iusto corporis nesciunt illum, accusantium quae delectus veritatis non voluptates animi placeat laboriosam cum quos exercitationem doloremque aut similique laudantium voluptas.',
     isOff: true,
-    offPercentage: 12,
+    offPercentage: 6,
     productImage: '',
     isAvailable: true,
     productImageList: [],

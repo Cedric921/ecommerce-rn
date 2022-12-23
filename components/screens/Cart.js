@@ -37,6 +37,10 @@ const Cart = ({route, navigation}) => {
     setTotal(tot);
   };
 
+  const removeFromCart = id => {
+    console.log(id);
+  };
+
   const renderProduct = (data, i) => {
     return (
       <TouchableOpacity
@@ -64,23 +68,29 @@ const Cart = ({route, navigation}) => {
             style={{width: '100%', height: '100%', resizeMode: 'contain'}}
           />
         </View>
-        <View>
-          <View
-            style={{
-              flex: 1,
-              height: '100%',
-              justifyContent: 'space-around',
-            }}>
+        <View
+          style={{
+            flex: 1,
+            height: '100%',
+            justifyContent: 'space-around',
+          }}>
+          <View>
             <Text
               style={{
                 fontSize: 14,
                 maxWidth: '100%',
                 color: COLORS.black,
                 fontWeight: '600',
+                letterSpacing: 1,
               }}>
               {data ? data.productName : null}
             </Text>
-            <View>
+            <View
+              style={{
+                flexDirection: 'row',
+                alignItems: 'center',
+                opacity: 0.6,
+              }}>
               <Text
                 style={{
                   fontSize: 14,
@@ -90,7 +100,65 @@ const Cart = ({route, navigation}) => {
                 }}>
                 $ {data.productPrice}
               </Text>
+              <Text>(~${data.productPrice + data.productPrice / 20})</Text>
             </View>
+          </View>
+          <View
+            style={{
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+            }}>
+            <View
+              style={{
+                flexDirection: 'row',
+                alignItems: 'center',
+              }}>
+              <View
+                style={{
+                  borderRadius: 100,
+                  borderWidth: 1,
+                  marginRight: 20,
+                  padding: 4,
+                  borderColor: COLORS.backgroundMedium,
+                }}>
+                <Material
+                  name="minus"
+                  style={{
+                    fontSize: 16,
+                    color: COLORS.backgroundDark,
+                  }}
+                />
+              </View>
+              <Text>1</Text>
+              <View
+                style={{
+                  borderRadius: 100,
+                  borderWidth: 1,
+                  marginLeft: 20,
+                  padding: 4,
+                }}>
+                <Material
+                  name="plus"
+                  style={{
+                    fontSize: 16,
+                    color: COLORS.backgroundDark,
+                  }}
+                />
+              </View>
+            </View>
+            <TouchableOpacity onPress={() => removeFromCart(data.id)}>
+              <Material
+                name="delete-outline"
+                style={{
+                  fontSize: 16,
+                  color: COLORS.backgroundLight,
+                  backgroundColor: COLORS.backgroundLight,
+                  borderRadius: 100,
+                  padding: 8,
+                }}
+              />
+            </TouchableOpacity>
           </View>
         </View>
       </TouchableOpacity>
